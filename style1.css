@@ -1,0 +1,81 @@
+/* Reset de estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #007BFF; /* Color del encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px; /* Ajusta el tamaño del logo */
+}
+
+/* Estilo de la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo de la estructura principal */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Estilo del área lateral */
+.sidebar {
+    width: 25%;
+    background-color: #e9ecef; /* Color del sidebar */
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+/* Estilo de los artículos */
+main {
+    width: 70%;
+}
+
+article {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    max-width: 100%; /* Ajusta la imagen al contenedor */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF; /* Color del pie de página */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
